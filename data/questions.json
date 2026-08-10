@@ -1,0 +1,1001 @@
+[
+  {
+    "id": 1,
+    "question": "Tell me about yourself.",
+    "role": "HR",
+    "skill": "General",
+    "difficulty": "Easy",
+    "type": "HR",
+    "keywords": [
+      "background",
+      "experience",
+      "skills",
+      "goal"
+    ],
+    "ideal_answer": "A brief walkthrough of your education, relevant experience, key skills, and what you're looking for next.",
+    "follow_up_strong": "What part of your background do you think is most relevant to this role?",
+    "follow_up_weak": "Can you summarize your background in two sentences?"
+  },
+  {
+    "id": 2,
+    "question": "What are your strengths?",
+    "role": "HR",
+    "skill": "General",
+    "difficulty": "Easy",
+    "type": "HR",
+    "keywords": [
+      "strength",
+      "skill",
+      "example"
+    ],
+    "ideal_answer": "Name 2-3 strengths and back each with a concrete example of how you used it.",
+    "follow_up_strong": "Can you give a specific example where that strength changed the outcome of a project?",
+    "follow_up_weak": "Which one strength do you rely on most day-to-day?"
+  },
+  {
+    "id": 3,
+    "question": "What are your weaknesses?",
+    "role": "HR",
+    "skill": "General",
+    "difficulty": "Easy",
+    "type": "HR",
+    "keywords": [
+      "weakness",
+      "improve",
+      "self-aware"
+    ],
+    "ideal_answer": "Name a genuine weakness and describe concrete steps you're taking to improve it.",
+    "follow_up_strong": "What progress have you made on that weakness in the last few months?",
+    "follow_up_weak": "What is one small thing you're doing this month to work on it?"
+  },
+  {
+    "id": 4,
+    "question": "Why should we hire you?",
+    "role": "HR",
+    "skill": "General",
+    "difficulty": "Medium",
+    "type": "HR",
+    "keywords": [
+      "skills",
+      "value",
+      "fit",
+      "contribution"
+    ],
+    "ideal_answer": "Connect your specific skills and past results to the needs of this role and team.",
+    "follow_up_strong": "Which of those skills would you apply first in this role?",
+    "follow_up_weak": "What is the single strongest reason you'd add value here?"
+  },
+  {
+    "id": 5,
+    "question": "Describe a challenge you faced and how you handled it.",
+    "role": "HR",
+    "skill": "Behavioral",
+    "difficulty": "Medium",
+    "type": "Behavioral",
+    "keywords": [
+      "situation",
+      "action",
+      "result",
+      "challenge"
+    ],
+    "ideal_answer": "Use the STAR method: Situation, Task, Action, Result \u2014 describing a real challenge and the outcome.",
+    "follow_up_strong": "What would you do differently if you faced that challenge again?",
+    "follow_up_weak": "What was the specific action you personally took?"
+  },
+  {
+    "id": 6,
+    "question": "How do you handle conflict in a team?",
+    "role": "HR",
+    "skill": "Behavioral",
+    "difficulty": "Hard",
+    "type": "Behavioral",
+    "keywords": [
+      "communication",
+      "listen",
+      "resolve",
+      "compromise"
+    ],
+    "ideal_answer": "Describe listening to all sides, focusing on facts and shared goals, and working toward a compromise.",
+    "follow_up_strong": "Tell me about a time that approach didn't work \u2014 what did you do then?",
+    "follow_up_weak": "What's the first thing you do when you notice a conflict starting?"
+  },
+  {
+    "id": 7,
+    "question": "Where do you see yourself in 5 years?",
+    "role": "HR",
+    "skill": "General",
+    "difficulty": "Hard",
+    "type": "HR",
+    "keywords": [
+      "growth",
+      "career",
+      "goal",
+      "learning"
+    ],
+    "ideal_answer": "A realistic growth path that shows ambition while staying grounded in the role you're applying for.",
+    "follow_up_strong": "What skills are you building right now toward that goal?",
+    "follow_up_weak": "What's the very next step in that direction?"
+  },
+  {
+    "id": 8,
+    "question": "Tell me about a time you failed and what you learned.",
+    "role": "HR",
+    "skill": "Behavioral",
+    "difficulty": "Hard",
+    "type": "Behavioral",
+    "keywords": [
+      "failure",
+      "learn",
+      "accountability",
+      "change"
+    ],
+    "ideal_answer": "Own the failure honestly, explain the root cause, and describe what you changed afterward.",
+    "follow_up_strong": "How have you applied that lesson since then?",
+    "follow_up_weak": "What was the very first mistake in that chain of events?"
+  },
+  {
+    "id": 9,
+    "question": "What is Python and what are its key features?",
+    "role": "Python Developer",
+    "skill": "Python Basics",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "interpreted",
+      "dynamically typed",
+      "readable",
+      "high-level"
+    ],
+    "ideal_answer": "Python is a high-level, interpreted, dynamically typed language known for readability and a large standard library.",
+    "follow_up_strong": "Which of those features do you find most useful day-to-day and why?",
+    "follow_up_weak": "Can you name just one key feature of Python?"
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between a list and a tuple?",
+    "role": "Python Developer",
+    "skill": "Python Basics",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "mutable",
+      "immutable",
+      "list",
+      "tuple"
+    ],
+    "ideal_answer": "Lists are mutable and defined with [], tuples are immutable and defined with () \u2014 tuples are hashable, lists are not.",
+    "follow_up_strong": "Why might you deliberately choose a tuple over a list in a function signature?",
+    "follow_up_weak": "Which one can you change after creating it?"
+  },
+  {
+    "id": 11,
+    "question": "Explain the four pillars of OOP.",
+    "role": "Python Developer",
+    "skill": "OOP",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "encapsulation",
+      "inheritance",
+      "polymorphism",
+      "abstraction"
+    ],
+    "ideal_answer": "Encapsulation hides internal state, inheritance reuses behavior across classes, polymorphism lets one interface take many forms, abstraction hides implementation detail.",
+    "follow_up_strong": "Can you give a real example of polymorphism from code you've written?",
+    "follow_up_weak": "Can you name at least two of the four pillars?"
+  },
+  {
+    "id": 12,
+    "question": "What is inheritance and when would you use it?",
+    "role": "Python Developer",
+    "skill": "OOP",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "parent class",
+      "child class",
+      "reuse",
+      "override"
+    ],
+    "ideal_answer": "Inheritance lets a child class reuse and extend the attributes/methods of a parent class, useful when classes share common behavior.",
+    "follow_up_strong": "How would composition be a better choice than inheritance in some cases?",
+    "follow_up_weak": "What keyword do you use in Python to inherit from a class?"
+  },
+  {
+    "id": 13,
+    "question": "Explain Python decorators with an example.",
+    "role": "Python Developer",
+    "skill": "Advanced Python",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "wrapper",
+      "function",
+      "@",
+      "higher-order"
+    ],
+    "ideal_answer": "A decorator is a function that wraps another function to extend its behavior without modifying its source, applied using the @decorator syntax.",
+    "follow_up_strong": "How would you write a decorator that also accepts arguments?",
+    "follow_up_weak": "What symbol is used to apply a decorator to a function?"
+  },
+  {
+    "id": 14,
+    "question": "What is the Global Interpreter Lock (GIL) and how does it affect multithreading?",
+    "role": "Python Developer",
+    "skill": "Advanced Python",
+    "difficulty": "Expert",
+    "type": "Technical",
+    "keywords": [
+      "GIL",
+      "thread",
+      "CPU-bound",
+      "multiprocessing"
+    ],
+    "ideal_answer": "The GIL allows only one thread to execute Python bytecode at a time, so CPU-bound multithreading doesn't get true parallelism \u2014 multiprocessing is used instead for CPU-bound work.",
+    "follow_up_strong": "When would threading still help despite the GIL?",
+    "follow_up_weak": "What's an alternative to threading for CPU-bound parallel work in Python?"
+  },
+  {
+    "id": 15,
+    "question": "What are Python generators and why use them?",
+    "role": "Python Developer",
+    "skill": "Advanced Python",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "yield",
+      "lazy",
+      "memory",
+      "iterator"
+    ],
+    "ideal_answer": "Generators use 'yield' to produce values lazily one at a time, saving memory versus building a full list upfront.",
+    "follow_up_strong": "How would you convert a generator expression into a generator function?",
+    "follow_up_weak": "What keyword makes a function a generator?"
+  },
+  {
+    "id": 16,
+    "question": "What is the difference between WHERE and HAVING?",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "aggregate"
+    ],
+    "ideal_answer": "WHERE filters rows before aggregation, HAVING filters groups after a GROUP BY/aggregate function is applied.",
+    "follow_up_strong": "Can HAVING be used without GROUP BY? When would that make sense?",
+    "follow_up_weak": "Which clause runs before GROUP BY?"
+  },
+  {
+    "id": 17,
+    "question": "Find the second highest salary from an employee table.",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "subquery",
+      "LIMIT",
+      "OFFSET",
+      "DISTINCT",
+      "MAX"
+    ],
+    "ideal_answer": "Common approaches: a subquery like SELECT MAX(salary) FROM emp WHERE salary < (SELECT MAX(salary) FROM emp), or ORDER BY salary DESC LIMIT 1 OFFSET 1, or DENSE_RANK().",
+    "follow_up_strong": "How would this change if you needed the Nth highest salary generically?",
+    "follow_up_weak": "What SQL function returns the largest value in a column?"
+  },
+  {
+    "id": 18,
+    "question": "Explain the different types of JOINs in SQL.",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL JOIN"
+    ],
+    "ideal_answer": "INNER JOIN returns matching rows only, LEFT/RIGHT JOIN keep all rows from one side filling unmatched with NULL, FULL JOIN keeps all rows from both sides.",
+    "follow_up_strong": "Give a real-world example where a LEFT JOIN is more appropriate than an INNER JOIN.",
+    "follow_up_weak": "Which JOIN returns only rows that match in both tables?"
+  },
+  {
+    "id": 19,
+    "question": "What is a Common Table Expression (CTE) and why use one?",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "WITH",
+      "CTE",
+      "readability",
+      "recursive"
+    ],
+    "ideal_answer": "A CTE, defined with WITH, is a named temporary result set that improves readability and can be referenced multiple times, including recursively.",
+    "follow_up_strong": "When would you choose a CTE over a subquery or a temp table?",
+    "follow_up_weak": "What keyword starts a CTE definition?"
+  },
+  {
+    "id": 20,
+    "question": "Find the top 3 products by revenue in each category using window functions.",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "ROW_NUMBER",
+      "RANK",
+      "PARTITION BY",
+      "window function"
+    ],
+    "ideal_answer": "Use ROW_NUMBER() OVER (PARTITION BY category ORDER BY revenue DESC) in a subquery/CTE, then filter WHERE rn <= 3.",
+    "follow_up_strong": "What's the difference between ROW_NUMBER, RANK, and DENSE_RANK here?",
+    "follow_up_weak": "Which clause lets a window function restart its numbering per category?"
+  },
+  {
+    "id": 21,
+    "question": "Design a SQL solution for identifying month-over-month revenue growth while handling missing months.",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Expert",
+    "type": "Technical",
+    "keywords": [
+      "date spine",
+      "LAG",
+      "window function",
+      "missing months"
+    ],
+    "ideal_answer": "Generate a full date spine (calendar table) per month, LEFT JOIN actual revenue onto it so missing months show as 0/NULL, then use LAG() to compute month-over-month growth.",
+    "follow_up_strong": "How would you handle a product that had zero sales for several consecutive months?",
+    "follow_up_weak": "What window function lets you access the previous row's value?"
+  },
+  {
+    "id": 22,
+    "question": "How do you detect and remove duplicate rows in SQL?",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "ROW_NUMBER",
+      "GROUP BY",
+      "duplicate",
+      "DELETE"
+    ],
+    "ideal_answer": "Use ROW_NUMBER() OVER (PARTITION BY the duplicate-defining columns ORDER BY id) and delete/keep rows where rn > 1, or GROUP BY with HAVING COUNT(*) > 1 to find them.",
+    "follow_up_strong": "How would you avoid re-introducing duplicates going forward?",
+    "follow_up_weak": "What clause groups identical rows together so you can count them?"
+  },
+  {
+    "id": 23,
+    "question": "How do you handle NULL values in SQL queries?",
+    "role": "SQL Developer",
+    "skill": "SQL",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "NULL",
+      "IS NULL",
+      "COALESCE",
+      "IFNULL"
+    ],
+    "ideal_answer": "Use IS NULL/IS NOT NULL for comparisons (never = NULL), and COALESCE()/IFNULL() to substitute default values.",
+    "follow_up_strong": "Why does '= NULL' silently fail instead of raising an error?",
+    "follow_up_weak": "What function lets you replace a NULL with a default value?"
+  },
+  {
+    "id": 24,
+    "question": "What is Machine Learning?",
+    "role": "Machine Learning",
+    "skill": "ML Basics",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "data",
+      "pattern",
+      "learn",
+      "predict"
+    ],
+    "ideal_answer": "Machine learning is a field where systems learn patterns from data to make predictions or decisions without being explicitly programmed for each rule.",
+    "follow_up_strong": "Can you name one real example of ML you've used or studied?",
+    "follow_up_weak": "In one sentence, what does a machine learning model do?"
+  },
+  {
+    "id": 25,
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "role": "Machine Learning",
+    "skill": "ML Basics",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "labeled",
+      "unlabeled",
+      "supervised",
+      "unsupervised"
+    ],
+    "ideal_answer": "Supervised learning trains on labeled data to predict an output, unsupervised learning finds structure/patterns in unlabeled data (e.g. clustering).",
+    "follow_up_strong": "What's an example of a problem where you don't have labels at all?",
+    "follow_up_weak": "Which type uses labeled data?"
+  },
+  {
+    "id": 26,
+    "question": "What is overfitting and how do you prevent it?",
+    "role": "Machine Learning",
+    "skill": "Model Evaluation",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "overfitting",
+      "regularization",
+      "cross-validation",
+      "generalization"
+    ],
+    "ideal_answer": "Overfitting is when a model learns noise/details specific to training data and fails to generalize; prevented via regularization, cross-validation, more data, or simpler models.",
+    "follow_up_strong": "How would you detect overfitting just from train vs validation scores?",
+    "follow_up_weak": "What's one simple technique to reduce overfitting?"
+  },
+  {
+    "id": 27,
+    "question": "Explain the bias-variance tradeoff.",
+    "role": "Machine Learning",
+    "skill": "Model Evaluation",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "bias",
+      "variance",
+      "underfitting",
+      "overfitting"
+    ],
+    "ideal_answer": "High bias causes underfitting (too simple), high variance causes overfitting (too sensitive to training data) \u2014 the goal is a balance that minimizes total error.",
+    "follow_up_strong": "How does increasing model complexity typically affect bias and variance?",
+    "follow_up_weak": "Which one, bias or variance, is associated with underfitting?"
+  },
+  {
+    "id": 28,
+    "question": "What is cross-validation and why is it used?",
+    "role": "Machine Learning",
+    "skill": "Model Evaluation",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "k-fold",
+      "validation",
+      "generalization",
+      "cross-validation"
+    ],
+    "ideal_answer": "Cross-validation (e.g. k-fold) splits data into multiple train/test folds to get a more reliable estimate of model performance on unseen data.",
+    "follow_up_strong": "How would you choose the value of k in k-fold cross-validation?",
+    "follow_up_weak": "What does k-fold cross-validation split the data into?"
+  },
+  {
+    "id": 29,
+    "question": "Explain precision, recall, and F1-score.",
+    "role": "Machine Learning",
+    "skill": "Model Evaluation",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "precision",
+      "recall",
+      "F1",
+      "confusion matrix"
+    ],
+    "ideal_answer": "Precision is TP/(TP+FP), recall is TP/(TP+FN), F1 is the harmonic mean of the two \u2014 useful when class balance or false-positive/negative cost matters.",
+    "follow_up_strong": "When would you prioritize recall over precision?",
+    "follow_up_weak": "Which metric measures how many predicted positives were actually correct?"
+  },
+  {
+    "id": 30,
+    "question": "What is the difference between Data Science and Data Analytics?",
+    "role": "Data Scientist",
+    "skill": "Fundamentals",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "predictive",
+      "descriptive",
+      "modeling",
+      "insights"
+    ],
+    "ideal_answer": "Data analytics focuses on descriptive analysis of existing data for insights, while data science extends this with predictive/prescriptive modeling and engineering.",
+    "follow_up_strong": "Where does your own experience sit on that spectrum?",
+    "follow_up_weak": "Which one is more focused on building predictive models?"
+  },
+  {
+    "id": 31,
+    "question": "What is feature engineering and why does it matter?",
+    "role": "Data Scientist",
+    "skill": "Modeling",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "feature",
+      "transform",
+      "model performance"
+    ],
+    "ideal_answer": "Feature engineering is creating/transforming input variables to better represent the underlying problem, often improving model performance more than model choice.",
+    "follow_up_strong": "Can you give an example of a feature you engineered and the impact it had?",
+    "follow_up_weak": "Can you name one common feature engineering technique?"
+  },
+  {
+    "id": 32,
+    "question": "How do you handle missing data in a dataset?",
+    "role": "Data Scientist",
+    "skill": "Data Cleaning",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "imputation",
+      "missing",
+      "drop",
+      "mean median"
+    ],
+    "ideal_answer": "Options include dropping rows/columns, mean/median/mode imputation, model-based imputation, or flagging missingness as its own feature \u2014 the right choice depends on why data is missing.",
+    "follow_up_strong": "How would your approach differ if 40% of a column were missing versus 2%?",
+    "follow_up_weak": "Name one simple way to fill a missing numeric value."
+  },
+  {
+    "id": 33,
+    "question": "What is A/B testing and how would you design one?",
+    "role": "Data Scientist",
+    "skill": "Experimentation",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "control",
+      "treatment",
+      "hypothesis",
+      "significance"
+    ],
+    "ideal_answer": "A/B testing randomly splits users into control and treatment groups to measure the causal effect of a change, using a pre-defined hypothesis, sample size, and significance test.",
+    "follow_up_strong": "How would you know if your sample size was large enough before running it?",
+    "follow_up_weak": "What are the two groups called in an A/B test?"
+  },
+  {
+    "id": 34,
+    "question": "What does a Business Analyst do in a data-driven organization?",
+    "role": "Business Analyst",
+    "skill": "Fundamentals",
+    "difficulty": "Easy",
+    "type": "HR",
+    "keywords": [
+      "requirements",
+      "stakeholders",
+      "data",
+      "insights"
+    ],
+    "ideal_answer": "A Business Analyst bridges business needs and data/technical teams \u2014 gathering requirements, analyzing data, and translating findings into actionable recommendations.",
+    "follow_up_strong": "Can you give an example of a requirement you translated into a data question?",
+    "follow_up_weak": "In one sentence, who does a Business Analyst usually work between?"
+  },
+  {
+    "id": 35,
+    "question": "Sales dropped 20% this month. How would you investigate it?",
+    "role": "Business Analyst",
+    "skill": "Case Study",
+    "difficulty": "Hard",
+    "type": "Case Study",
+    "keywords": [
+      "hypothesis",
+      "segment",
+      "trend",
+      "root cause",
+      "metrics"
+    ],
+    "ideal_answer": "Break the drop down by segment (region, product, channel, customer type) and time to isolate where it's concentrated, check for seasonality/external factors, form hypotheses, and validate each against the data before recommending action.",
+    "follow_up_strong": "Once you found the segment responsible, what would you check next?",
+    "follow_up_weak": "What's the very first thing you'd check \u2014 one specific breakdown?"
+  },
+  {
+    "id": 36,
+    "question": "How would you prioritize which KPIs to track for a new product?",
+    "role": "Business Analyst",
+    "skill": "Business Analytics",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "KPI",
+      "north star",
+      "actionable",
+      "business goal"
+    ],
+    "ideal_answer": "Tie KPIs directly to business goals, prefer a small set of actionable, leading metrics over many vanity metrics, and include one 'north star' metric.",
+    "follow_up_strong": "What would you pick as the single north-star metric for a subscription product?",
+    "follow_up_weak": "What makes a metric 'actionable' versus a vanity metric?"
+  },
+  {
+    "id": 37,
+    "question": "What is the difference between a stack and a queue?",
+    "role": "Software Developer",
+    "skill": "Data Structures",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "LIFO",
+      "FIFO",
+      "stack",
+      "queue"
+    ],
+    "ideal_answer": "A stack is LIFO (last in, first out) and a queue is FIFO (first in, first out).",
+    "follow_up_strong": "Can you name a real use case for each?",
+    "follow_up_weak": "Which one removes the most recently added item first?"
+  },
+  {
+    "id": 38,
+    "question": "Explain time complexity and give an example of O(n) vs O(log n).",
+    "role": "Software Developer",
+    "skill": "Algorithms",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "Big O",
+      "time complexity",
+      "binary search",
+      "linear search"
+    ],
+    "ideal_answer": "Time complexity describes how runtime grows with input size; O(n) (e.g. linear search) scales linearly, O(log n) (e.g. binary search on sorted data) grows much slower.",
+    "follow_up_strong": "What precondition does binary search require that linear search doesn't?",
+    "follow_up_weak": "Which is generally faster on large input, O(n) or O(log n)?"
+  },
+  {
+    "id": 39,
+    "question": "What is REST and what makes an API RESTful?",
+    "role": "Software Developer",
+    "skill": "System Design",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "stateless",
+      "HTTP methods",
+      "resource",
+      "REST"
+    ],
+    "ideal_answer": "REST is an architectural style using stateless HTTP requests, resource-based URLs, and standard methods (GET/POST/PUT/DELETE) to manipulate resources.",
+    "follow_up_strong": "How would you version a REST API without breaking existing clients?",
+    "follow_up_weak": "Name one HTTP method commonly used in a REST API."
+  },
+  {
+    "id": 40,
+    "question": "How would you design a URL-shortening service at a high level?",
+    "role": "Software Developer",
+    "skill": "System Design",
+    "difficulty": "Expert",
+    "type": "Technical",
+    "keywords": [
+      "hashing",
+      "database",
+      "scalability",
+      "caching"
+    ],
+    "ideal_answer": "Generate a short unique key (hash or counter-based encoding), store the key-to-URL mapping in a fast key-value store, add caching for hot links, and plan for horizontal scaling and analytics.",
+    "follow_up_strong": "How would you handle collisions in your key-generation scheme?",
+    "follow_up_weak": "What's the core data structure you'd use to map short codes to URLs?"
+  },
+  {
+    "id": 41,
+    "question": "What is the difference between VLOOKUP and INDEX-MATCH?",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "VLOOKUP",
+      "INDEX",
+      "MATCH",
+      "lookup"
+    ],
+    "ideal_answer": "VLOOKUP looks up a value in the first column and returns from a column to its right; INDEX-MATCH is more flexible, working in any direction and handling column insertions better.",
+    "follow_up_strong": "Why might XLOOKUP be preferred over both in modern Excel?",
+    "follow_up_weak": "Which one only searches left-to-right \u2014 VLOOKUP or INDEX-MATCH?"
+  },
+  {
+    "id": 42,
+    "question": "How do SUMIFS and COUNTIFS work?",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "SUMIFS",
+      "COUNTIFS",
+      "criteria",
+      "conditional"
+    ],
+    "ideal_answer": "SUMIFS sums a range based on one or more criteria ranges/conditions; COUNTIFS counts rows meeting multiple conditions, both evaluated with AND logic across criteria.",
+    "follow_up_strong": "How would you adapt SUMIFS to support OR logic across two categories?",
+    "follow_up_weak": "Do SUMIFS conditions combine with AND or OR logic by default?"
+  },
+  {
+    "id": 43,
+    "question": "How do Pivot Tables help in data analysis?",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "pivot table",
+      "summarize",
+      "aggregate",
+      "group"
+    ],
+    "ideal_answer": "Pivot tables let you quickly summarize, group, and aggregate large datasets (sums, counts, averages) by dragging fields into rows/columns/values without writing formulas.",
+    "follow_up_strong": "How would you add a calculated field inside a pivot table?",
+    "follow_up_weak": "What's one aggregation a pivot table can perform on a numeric column?"
+  },
+  {
+    "id": 44,
+    "question": "How would you clean messy data in Excel before analysis?",
+    "role": "Data Analyst",
+    "skill": "Data Cleaning",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "duplicates",
+      "trim",
+      "data validation",
+      "cleaning"
+    ],
+    "ideal_answer": "Steps include removing duplicates, trimming whitespace, standardizing formats/casing, handling blanks, and using data validation to prevent future errors.",
+    "follow_up_strong": "How would you catch inconsistent entries like 'NY' vs 'New York'?",
+    "follow_up_weak": "Name one built-in Excel tool for removing duplicate rows."
+  },
+  {
+    "id": 45,
+    "question": "How do you handle missing values in a Pandas DataFrame?",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "dropna",
+      "fillna",
+      "isnull",
+      "missing"
+    ],
+    "ideal_answer": "Use df.isnull().sum() to inspect missingness, then df.dropna() or df.fillna() (mean/median/mode or forward/back-fill) depending on the situation.",
+    "follow_up_strong": "When would dropping rows be safer than imputing them?",
+    "follow_up_weak": "What Pandas method checks for missing values in a column?"
+  },
+  {
+    "id": 46,
+    "question": "Explain groupby() in Pandas with an example.",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "groupby",
+      "aggregate",
+      "split-apply-combine"
+    ],
+    "ideal_answer": "groupby() splits data into groups by a key, applies an aggregation (sum, mean, count, etc.) to each group, then combines the results \u2014 e.g. df.groupby('region')['sales'].sum().",
+    "follow_up_strong": "How would you apply multiple aggregations at once with groupby?",
+    "follow_up_weak": "What does groupby('region')['sales'].sum() return conceptually?"
+  },
+  {
+    "id": 47,
+    "question": "What is the difference between merge() and concat() in Pandas?",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "merge",
+      "concat",
+      "join",
+      "axis"
+    ],
+    "ideal_answer": "merge() joins DataFrames on key columns like a SQL join, while concat() stacks DataFrames along an axis (rows or columns) without needing a join key.",
+    "follow_up_strong": "How would merge() behave differently with how='inner' vs how='outer'?",
+    "follow_up_weak": "Which one is used to stack two DataFrames on top of each other?"
+  },
+  {
+    "id": 48,
+    "question": "How would you find and remove duplicate rows in a Pandas DataFrame?",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "duplicated",
+      "drop_duplicates",
+      "Pandas"
+    ],
+    "ideal_answer": "Use df.duplicated() to flag duplicates and df.drop_duplicates() to remove them, optionally specifying a subset of columns.",
+    "follow_up_strong": "How would you keep the last occurrence instead of the first?",
+    "follow_up_weak": "What Pandas method removes duplicate rows?"
+  },
+  {
+    "id": 49,
+    "question": "What is the difference between mean, median, and mode?",
+    "role": "Data Analyst",
+    "skill": "Statistics",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "mean",
+      "median",
+      "mode",
+      "average"
+    ],
+    "ideal_answer": "Mean is the arithmetic average, median is the middle value when sorted, mode is the most frequent value \u2014 median is more robust to outliers than mean.",
+    "follow_up_strong": "When would median be a better summary statistic than mean?",
+    "follow_up_weak": "Which measure is least affected by extreme outliers?"
+  },
+  {
+    "id": 50,
+    "question": "What is standard deviation and what does it tell you?",
+    "role": "Data Analyst",
+    "skill": "Statistics",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "standard deviation",
+      "spread",
+      "variance"
+    ],
+    "ideal_answer": "Standard deviation measures how spread out values are from the mean \u2014 a low value means data clusters tightly around the mean, a high value means it's spread widely.",
+    "follow_up_strong": "How is standard deviation related to variance mathematically?",
+    "follow_up_weak": "Does a higher standard deviation mean more or less spread in the data?"
+  },
+  {
+    "id": 51,
+    "question": "Explain correlation vs causation.",
+    "role": "Data Analyst",
+    "skill": "Statistics",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "correlation",
+      "causation",
+      "confounding"
+    ],
+    "ideal_answer": "Correlation means two variables move together, but that doesn't imply one causes the other \u2014 a confounding variable or coincidence could explain the relationship.",
+    "follow_up_strong": "How would you design a study to test for actual causation?",
+    "follow_up_weak": "Can you give an example of two variables that are correlated but not causally linked?"
+  },
+  {
+    "id": 52,
+    "question": "What is a p-value and how do you interpret it?",
+    "role": "Data Analyst",
+    "skill": "Statistics",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "p-value",
+      "null hypothesis",
+      "significance",
+      "0.05"
+    ],
+    "ideal_answer": "A p-value is the probability of observing data as extreme as yours if the null hypothesis were true \u2014 a small p-value (commonly < 0.05) suggests evidence against the null hypothesis.",
+    "follow_up_strong": "What's the difference between statistical significance and practical significance?",
+    "follow_up_weak": "What does a very small p-value suggest about the null hypothesis?"
+  },
+  {
+    "id": 53,
+    "question": "What is a confidence interval?",
+    "role": "Data Analyst",
+    "skill": "Statistics",
+    "difficulty": "Hard",
+    "type": "Technical",
+    "keywords": [
+      "confidence interval",
+      "estimate",
+      "range",
+      "95%"
+    ],
+    "ideal_answer": "A confidence interval gives a range of plausible values for a population parameter, with a confidence level (e.g. 95%) indicating how often the method would capture the true value across repeated samples.",
+    "follow_up_strong": "How does increasing the confidence level affect the width of the interval?",
+    "follow_up_weak": "What does a 95% confidence interval roughly represent?"
+  },
+  {
+    "id": 54,
+    "question": "What is the difference between a calculated column and a measure in Power BI?",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "DAX",
+      "calculated column",
+      "measure",
+      "row context"
+    ],
+    "ideal_answer": "A calculated column is computed row-by-row and stored in the table, while a measure is calculated dynamically at query time based on the current filter context \u2014 measures are more memory-efficient for aggregations.",
+    "follow_up_strong": "When would you be forced to use a calculated column instead of a measure?",
+    "follow_up_weak": "Which one is computed dynamically based on filters \u2014 measure or calculated column?"
+  },
+  {
+    "id": 55,
+    "question": "What is Power Query used for?",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "difficulty": "Easy",
+    "type": "Technical",
+    "keywords": [
+      "Power Query",
+      "ETL",
+      "transform",
+      "clean"
+    ],
+    "ideal_answer": "Power Query is Power BI's ETL tool for connecting to, cleaning, and transforming data before it's loaded into the data model.",
+    "follow_up_strong": "How would you handle a source that changes its column order every month using Power Query?",
+    "follow_up_weak": "What does ETL stand for?"
+  },
+  {
+    "id": 56,
+    "question": "How do relationships work in a Power BI data model?",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "relationship",
+      "star schema",
+      "primary key",
+      "foreign key"
+    ],
+    "ideal_answer": "Tables are linked via relationships (typically one-to-many) on key columns, ideally following a star schema with fact and dimension tables for performance and clarity.",
+    "follow_up_strong": "Why is a star schema generally preferred over a single flat table?",
+    "follow_up_weak": "What's the typical cardinality of a fact-to-dimension relationship?"
+  },
+  {
+    "id": 57,
+    "question": "How would you design a KPI dashboard in Tableau or Power BI for a sales team?",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "difficulty": "Medium",
+    "type": "Technical",
+    "keywords": [
+      "KPI",
+      "dashboard",
+      "chart choice",
+      "audience"
+    ],
+    "ideal_answer": "Start with the audience's key questions, choose 3-5 KPIs, pick chart types that match the data relationship (trend=line, comparison=bar, part-to-whole=limited pie/donut), and keep it uncluttered.",
+    "follow_up_strong": "How would the dashboard differ for an executive audience vs an individual sales rep?",
+    "follow_up_weak": "Name one chart type you'd use to show a trend over time."
+  },
+  {
+    "id": 58,
+    "question": "A company noticed a 15% decrease in monthly sales. How would you investigate the problem?",
+    "role": "Data Analyst",
+    "skill": "Case Study",
+    "difficulty": "Hard",
+    "type": "Case Study",
+    "keywords": [
+      "hypothesis",
+      "segment",
+      "data requirements",
+      "metrics",
+      "root cause"
+    ],
+    "ideal_answer": "Clarify the timeframe/scope, segment the drop by product/region/channel/customer cohort, check for seasonality or external events, form and test hypotheses against the data, then quantify the biggest driver before recommending action.",
+    "follow_up_strong": "Which specific data tables would you request first to start this investigation?",
+    "follow_up_weak": "What is the very first question you'd ask to scope the problem?"
+  },
+  {
+    "id": 59,
+    "question": "How would you measure whether a new feature improved user engagement?",
+    "role": "Data Analyst",
+    "skill": "Case Study",
+    "difficulty": "Hard",
+    "type": "Case Study",
+    "keywords": [
+      "metric definition",
+      "A/B test",
+      "baseline",
+      "engagement"
+    ],
+    "ideal_answer": "Define engagement clearly (e.g. DAU, session length, retention), establish a pre-launch baseline, ideally run an A/B test, and check for confounders like seasonality before attributing change to the feature.",
+    "follow_up_strong": "How would you rule out that an unrelated marketing campaign caused the change?",
+    "follow_up_weak": "What's one concrete metric you'd use to define 'engagement' here?"
+  }
+]
